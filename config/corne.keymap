@@ -97,10 +97,10 @@
             //             |     |     |     |   |     |     |     |
 
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp HASH    &kp DLLR   &kp PRCNT     &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans
-&trans  &kp GRAVE  &kp TILDE  &kp MINUS   &kp UNDER  &euro_sign    &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT  &kp BSLH  &trans
-&trans  &trans     &trans     &cedilla_c  &trans     &trans        &kp COMMA  &kp DOT   &kp FSLH  &kp DQT   &kp SQT   &trans
-                              &trans      &trans     &trans        &trans     &trans    &trans
+&trans  &kp EXCL   &kp AT     &kp HASH    &kp DLLR   &kp PRCNT     &kp CARET      &kp AMPS          &kp STAR      &kp LPAR           &kp RPAR  &trans
+&trans  &kp GRAVE  &kp TILDE  &kp MINUS   &kp UNDER  &euro_sign    &kp LBRC       &kp RBRC          &kp LBKT      &kp RBKT           &kp BSLH  &trans
+&trans  &trans     &trans     &cedilla_c  &trans     &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp DOUBLE_QUOTES  &kp SQT   &trans
+                              &trans      &trans     &trans        &trans         &trans            &trans
             >;
         };
 
